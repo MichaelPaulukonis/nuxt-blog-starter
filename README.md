@@ -1,36 +1,14 @@
-# Nuxt 3 Blog Starter
+# Personal website blog thingy
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Long time no update
 
-## Setup
 
-Make sure to install the dependencies:
+## TODO:
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Generation
-
-Build the application for production:
-
-```bash
-npm run generate
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- convert all extant pages
+- translate main page
+- translate styles
+- new pages
+- tool that will help me build pages (a CMS oh dear)
+- study how Nuxt and Content work
+- translate to Content v3

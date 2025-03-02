@@ -9,11 +9,15 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
-    "rehype-external-links": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.5.0",
-    "nuxt": "^3.2.3"
+    "nuxt": "^3.2.3",
+    "rehype-external-links": "^3.0.0",
+    "sass": "^1.85.1"
   },
   "dependencies": {
-    "@vueuse/core": "^9.13.0"
-  }
+    "@vue/language-plugin-pug": "^2.2.4",
+    "@vueuse/core": "^9.13.0",
+    "pug": "^3.0.3"
+  },
+  "packageManager": "yarn@3.3.1+sha256.1d2760eb5c0e525abe9c5306fac5fe0b5628c0955072a0da2f4043524497526a"
 }

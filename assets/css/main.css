@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind colors;
 
 html {
     scroll-behavior: smooth;
@@ -126,4 +127,14 @@ p {
 
 .blog-content :not(h1):not(h2):not(h3):not(h4):not(h5) a {
     @apply underline font-bold text-brand_primary;
+}
+
+/* Site Links */
+.site-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.page-index {
+    @apply bg-gradient-to-br from-fuchsia-700 via-rose-400 to-amber-400 bg-fixed;
 }
