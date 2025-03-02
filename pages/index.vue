@@ -32,10 +32,12 @@
             a.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(:href="project.url") {{ project.name }}
 
     .mt-8
-        //- BlogPosts
+        a.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(href="/blog") Blog
 </template>
 
 <script setup lang="ts">
+// TODO: component to display pinned posts
+
 const accounts = [
     { url: "https://github.com/michaelpaulukonis", name: "github" },
     { url: "https://www.linkedin.com/in/michaelpaulukonis/", name: "linkedin" }

@@ -1,6 +1,5 @@
 <template lang="pug" name="default">
-div
-    slot
+slot
 </template>
   
 <script setup lang="ts">
@@ -8,10 +7,6 @@ div
 </script>
 
 <style lang="scss">
-body {
-  @apply m-0 p-0;
-}
-
 .container {
   @apply max-w-4xl mx-auto;
 }

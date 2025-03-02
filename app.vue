@@ -2,6 +2,6 @@
     <main id="main">
         <NuxtLayout>
             <NuxtPage/>
-        </NuxtLayout>>
+        </NuxtLayout>
     </main>
 </template>
