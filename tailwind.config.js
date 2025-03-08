@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  separator: '--',
   content: [
     `components/**/*.{vue,js}`,
     `layouts/**/*.vue`,
@@ -66,7 +67,12 @@ module.exports = {
       spacing: {
         'nav': '4rem',
         'section_x': '5rem',
-      }
+      },
+      width: {
+        '1of2': '50%',
+        '1of4': '25%',
+        '3of4': '75%'
+      },
     },
   },
   plugins: [],

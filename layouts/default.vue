@@ -8,7 +8,7 @@ slot
 
 <style lang="scss">
 .container {
-  @apply max-w-4xl mx-auto;
+  @apply max-w-7xl mx-auto;
 }
 </style>
   

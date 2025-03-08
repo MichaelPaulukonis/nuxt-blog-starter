@@ -1,22 +1,23 @@
 ---
-title: 'Introducing PolychromeText'
+title: Introducing PolychromeText
 description: 'An in-browser text-drawing program because I was jealous of Jackson Pollock and Mark Rothko'
-headline: 'Introducing PolychromeText'
+headline: PolychromeText
 excerpt: An in-browser text-drawing program because I was jealous of Jackson Pollock and Mark Rothko
 date: '2019-09-14T12:00:00'
 dateUpdated: ''
 author: 'Michael Paulukonis'
 authorUrl: 'https://example.com/'
 socialImage:
-    src: '/img/blog/sample.webp'
+    src: '/img/blog/polychrometext.thumb.jpg'
     mime: 'webp'
     alt: 'Mountain'
-    width: 1200
-    height: 630
+    width: 900
+    height: 583
 tags: 
   - art
   - programming
   - text
+  - pinned
 ---
 
 An introduction to PolychromeText

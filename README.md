@@ -12,3 +12,9 @@ Long time no update
 - tool that will help me build pages (a CMS oh dear)
 - study how Nuxt and Content work
 - translate to Content v3
+
+
+## from nuxt-blog-starter
+
+<https://github.com/GonzaloHirsch/nuxt-blog-starter.git>
+<https://gonzalohirsch.com/blog/zero-to-blog-building-with-nuxt-3/>

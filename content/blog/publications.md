@@ -1,22 +1,23 @@
 ---
 title: Publications
 description: Places that have graced me with my presence
-headline: Places that have graced me with my presence
+headline: Publications
 excerpt: Places that have graced me with my presence
 date: 2021-07-01
 dateUpdated: ''
 author: Michael Paulukonis
 socialImage:
-    src: '/img/blog/sample.webp'
-    mime: 'webp'
-    alt: 'Mountain'
-    width: 1200
-    height: 630
+    src: '/img/blog/publications.thumb.png'
+    mime: 'png'
+    alt: 'an online web zine'
+    width: 586
+    height: 413
 tags:
   - publications
   - writing
   - poetry
   - art
+  - pinned
 ---
 
 ## Places I can or have been found
