@@ -10,10 +10,6 @@
     li.inline-block.leading-none.pl-5(v-for="site in accounts")
       a.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(:href="site.url") {{ site.name }}
 
-  ul.inline-list.list-none.m-0.p-0
-    li.inline-block.leading-none.pl-5(v-for="site in websites" :key="site.url")
-      a.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(:href="site.url") {{ site.name }}
-
   .sectionhead.mt-8.inline-block.bg-primary.text-white.leading-tight.antialiased.text-left.font-bold.p-2.text-2xl.font-serif
     | other web-projects
 
@@ -21,10 +17,7 @@
     li.inline-block.leading-none.pl-5(v-for="project in projects" :key="project.url")
       a.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(:href="project.url") {{ project.name }}
 
-  .mt-8
-    NuxtLink.site-link.px-2.py-1.bg-secondary.uppercase.tracking-wide.font-normal.text-sm.text-black(to="/blog") Blog
-
-  Section#main.pt-0-important
+  #main.pt-0-important.mt-10
     ContentQuery(
       path="/blog"
       :only="['headline', 'excerpt', 'date', 'tags', '_path', 'image', 'socialImage']"
