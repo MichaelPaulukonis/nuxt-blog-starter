@@ -14,7 +14,6 @@
 </template>
 
 <script setup>
-import Twitter from '../icons/twitter.vue';
 import Pinterest from '../icons/pinterest.vue';
 import Linkedin from '../icons/linkedin.vue';
 import Facebook from '../icons/facebook.vue';
@@ -46,13 +45,6 @@ const icons = [
             return `https://www.linkedin.com/sharing/share-offsite/?mini=true&url=${encodedUrl}&title=${encodeURI(
                 props.headline
             )}&summary=${encodeURI(props.excerpt)}`;
-        }
-    },
-    {
-        icon: Twitter,
-        alt: 'Share this story on Twitter.',
-        getHref: () => {
-            return `https://twitter.com/intent/tweet?text=${encodeURIComponent('Check out this article about ' + props.headline)}&url=${encodedUrl}`;
         }
     },
     {

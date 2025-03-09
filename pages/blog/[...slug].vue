@@ -162,13 +162,6 @@ useHead({
         { hid: 'og:image:width', property: 'og:image:width', content: data.value?.article?.socialImage.width || 190 },
         { hid: 'og:image:height', property: 'og:image:height', content: data.value?.article?.socialImage.height || 190 },
         { hid: 'og:image:alt', property: 'og:image:alt', content: data.value?.article?.socialImage.alt },
-        // Twitter
-        { hid: 'twitter:card', name: 'twitter:card', content: 'Summary' },
-        { hid: 'twitter:title', name: 'twitter:title', content: data.value?.article?.headline },
-        { hid: 'twitter:url', name: 'twitter:url', content: canonicalPath },
-        { hid: 'twitter:description', name: 'twitter:description', content: data.value?.article?.description },
-        { hid: 'twitter:image', name: 'twitter:image', content: image },
-        { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: data.value?.article?.socialImage.alt }
     ],
     link: [
         {

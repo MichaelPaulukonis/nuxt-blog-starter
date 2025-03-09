@@ -15,8 +15,7 @@
         </div>
         <h1 class="font-bold mb-4 md:mb-6 text-h3 leading-h3 md:text-h1 md:leading-h1 text-center md:text-left">Blog</h1>
         <p class="mb-3 md:w-8/12 md:text-lg md:leading-lg text-center md:text-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos porro consectetur aliquid debitis odit labore eveniet, nesciunt, deleniti
-            totam aspernatur blanditiis laborum esse nam fugit ipsa sunt eum, provident consequuntur.
+            So, this will be a blog, of sorts. Again. Maybe. I feel confidently ambivalent about this, I think.
         </p>
         <div class="border-t-2 mt-8 border-typography_primary flex flex-col md:flex-row items-center md:justify-between md:text-right"></div>
     </Section>

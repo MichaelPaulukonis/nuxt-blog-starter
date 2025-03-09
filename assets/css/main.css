@@ -328,20 +328,6 @@ a.linkedin span:after {
   background-color: #0099e8;
 }
 
-a.twitter {
-  color: #00aced;
-}
-
-a.twitter.active,
-a.twitter:focus,
-a.twitter:hover {
-  color: #21c2ff;
-}
-
-a.twitter span:after {
-  background-color: #21c2ff;
-}
-
 a.ani:hover span:after {
   width: 100%;
 }

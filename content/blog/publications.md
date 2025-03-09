@@ -20,6 +20,8 @@ tags:
   - pinned
 ---
 
+NOTE: this is quite out-of-date and is a WIP
+
 ## Places I can or have been found
 
 - Perspective magazine published [OBSCURUS](https://abc.perspektive.at/obscurator-visually-difficult/), 2020/2021

@@ -17,9 +17,11 @@ tags:
   - bots
   - automation
   - art
-  - twitter
   - tumblr
 ---
+
+NOTE: as of 03.2025 just about everything on this list is defunct, except for [ListMania](https://leanstooneside.tumblr.com/)
+
 
 # What are you talking about?
 
