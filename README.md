@@ -13,6 +13,18 @@ Long time no update
 - study how Nuxt and Content work
 - translate to Content v3
 
+## github pages deployment
+
+- https://nuxt.com/deploy/github-pages
+
+```
+If you are not using a custom domain, you need to set NUXT_APP_BASE_URL to your repository-slug for your build step.Example: https://<user>.github.io/<repository>/: NUXT_APP_BASE_URL=/<repository>/ npx nuxt build --preset github_pages
+```
+
+https://github.com/actions/deploy-pages#usage
+
+
+
 
 ## from nuxt-blog-starter
 

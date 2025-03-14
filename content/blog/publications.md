@@ -7,7 +7,7 @@ date: 2021-07-01
 dateUpdated: ''
 author: Michael Paulukonis
 socialImage:
-    src: '/img/blog/publications.thumb.png'
+    src: 'media/publications.thumb.png'
     mime: 'png'
     alt: 'an online web zine'
     width: 586
@@ -21,6 +21,9 @@ tags:
 ---
 
 NOTE: this is quite out-of-date and is a WIP
+
+
+![image](media/publications.thumb.png)
 
 ## Places I can or have been found
 

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+    modules: ['@nuxtjs/tailwindcss', 'nuxt-content-assets', '@nuxt/content'],
     css: ['/assets/css/main.css'],
     ssr: true,
     experimental: {
@@ -9,6 +9,15 @@ export default defineNuxtConfig({
         options: {
             strict: false
         }
+    },
+    nitro: {
+      prerender: {
+        crawlLinks: true,
+        routes: [
+          '/',
+          '/blog'
+        ]
+      }
     },
     sourcemap: false,
     content: {
@@ -31,6 +40,7 @@ export default defineNuxtConfig({
         }
     },
     app: {
+      // baseURL: "/nuxt-blog-starter/",
       head: {
         link: [
           { rel: 'icon', type: 'image/x-icon', href: '/favicons/favicon.ico' }

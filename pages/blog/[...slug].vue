@@ -120,7 +120,7 @@ const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
 const { data: authorData } = await useAsyncData('home', () => queryContent('/authors').findOne());
 
 // Set the meta
-const baseUrl = 'https://example.com';
+const baseUrl = 'https://michael.paulukonis.github.io';
 const canonicalPath = baseUrl + (path + '/').replace(/\/+$/, '/');
 const image = baseUrl + (data.value?.article?.socialImage.src || '/sample.webp');
 
@@ -133,7 +133,7 @@ const jsonScripts = [
             '@type': 'BlogPosting',
             mainEntityOfPage: {
                 '@type': 'WebPage',
-                '@id': 'https://example.com/'
+                '@id': 'https://michael.paulukonis.github.io/'
             },
             url: canonicalPath,
             image: image,

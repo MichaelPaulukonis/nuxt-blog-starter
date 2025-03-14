@@ -4,7 +4,7 @@
     h1.text-title.leading-title.mt-8.mb-4 Michael Paulukonis
 
   .sectionhead.mt-8.inline-block.bg-primary.text-white.leading-tight.antialiased.text-left.font-bold.p-2.text-2xl.font-serif
-    | I am a developer/architect and digital artist living in Framingham, MA
+    | I am a full-stack developer and digital artist living in Framingham, MA
 
   ul.inline-list.list-none.m-0.p-0
     li.inline-block.leading-none.pl-5(v-for="site in accounts")

@@ -34,7 +34,8 @@ const props = defineProps({
     }
 });
 
-const baseUrl = 'https://example.com';
+// TODO: env-var or gloabl config, not buried here
+const baseUrl = 'https://michaelpaulukonis.github.io';
 const encodedUrl = encodeURIComponent(baseUrl + props.path);
 
 const icons = [

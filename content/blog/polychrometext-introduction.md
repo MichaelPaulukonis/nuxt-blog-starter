@@ -6,11 +6,11 @@ excerpt: An browser-based text-drawing program because I was jealous of Jackson 
 date: '2019-09-14T12:00:00'
 dateUpdated: ''
 author: 'Michael Paulukonis'
-authorUrl: 'https://example.com/'
+authorUrl: 'https://michael.paulukonis.github.io/'
 socialImage:
-    src: '/img/blog/polychrometext.thumb.jpg'
+    src: 'media/polychrometext.thumb.jpg'
     mime: 'webp'
-    alt: 'Mountain'
+    alt: 'an older version of Polychrometext with some GUI elements'
     width: 900
     height: 583
 tags: 
@@ -18,6 +18,7 @@ tags:
   - programming
   - text
   - pinned
+  - p5js
 ---
 
 An introduction to PolychromeText
